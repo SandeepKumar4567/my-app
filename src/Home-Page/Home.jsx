@@ -472,7 +472,7 @@ function Home() {
                                     <li>
                                         <h1>
                                             <a href="https://www.instagram.com/accounts/login/">
-                                                <img className="img-fluid" src="./image/whats-removebg-preview.png" alt="" height="75px" width="75px" />
+                                                <img className="img-fluid whatsapp" src="./image/whats-removebg-preview.png" alt="" height="55px" width="55px" />
                                             </a>
                                         </h1>
                                         <p>Whatsapp</p>
@@ -482,7 +482,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="footer-copyright pb-0">
+                <div className="footer-copyright pb-0 copyright">
                     <div className="container">
                         <div className="row ">
                             <div className="col text-center py-4">
