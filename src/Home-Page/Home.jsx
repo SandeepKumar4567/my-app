@@ -35,12 +35,12 @@ function Home() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#service">
                                         <p className="navitems">Service</p>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#contact">
                                         <p className="navitems">Contact</p>
                                     </a>
                                 </li>
@@ -71,10 +71,10 @@ function Home() {
 
                 {/* Section 2 */}
 
-                <div id="about" className="section2">
+                <div id="about" className="section2 block">
                     <p className="about col-12">About <p id="ida">IDA</p></p>
                     <div className="aboutpart">
-                        <img className="col-lg-6 col-12 img-fluid" src="./image/vr.webp" alt="" height={450} width={400} /><br />
+                        <img className="col-lg-6 col-12 img-fluid block" src="./image/vr.webp" alt="" height={450} width={400} /><br />
                         <h3 className="col-lg-5 col-12">Shaping Tomorrow's <p id="reality">Reality</p>
                             <p className="sec2para">At IDA, we're pioneers in reshaping industries and businesses through cutting-edge solutions tailored for Web3.0 and Industry 4.0. Our mission? To propel you forward into a new era of immersive technology. We specialize in crafting bespoke solutions that harness the power of AR (Augmented Reality), VR (Virtual Reality), MR (Mixed Reality), and XR (Extended Reality), unlocking endless possibilities for your business. Step into the future with us as we redefine the landscape of industries through our expertise in Game Development, Motion Graphics, Immersive Media, Visual Effects, and Virtual Production. Join IDA on the journey to an immersive tomorrow!</p></h3>
                     </div>
@@ -109,7 +109,7 @@ function Home() {
 
                 {/* Section 4 */}
 
-                <div className="section4">
+                <div id="service" className="section4">
                     <h2 className="service">Our Services</h2>
                     <div className="section4-1">
                         <div className="projects">
@@ -472,7 +472,7 @@ function Home() {
                                     <li>
                                         <h1>
                                             <a href="https://www.instagram.com/accounts/login/">
-                                                <img className="img-fluid whatsapp" src="./image/whats-removebg-preview.png" alt="" height="55px" width="55px" />
+                                                <img className="img-fluid whatsapp" src="./image/whats-removebg-preview.png" alt="" height="75px" width="75px" />
                                             </a>
                                         </h1>
                                         <p>Whatsapp</p>

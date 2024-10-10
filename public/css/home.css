@@ -6,6 +6,25 @@
     border: 1px solid white;
 } */
 
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.block {
+    animation: appear linear;
+    animation-timing-function: view();
+}
+
+
+
 /* Header Style */
 
 header {
@@ -24,7 +43,7 @@ header .navbar-nav {
 }
 
 nav {
-    height: 70px;
+    height: 83px;
 }
 
 @media screen and (max-width:990px) {
@@ -136,7 +155,7 @@ nav {
 
 .navitems {
     margin-top: 10px;
-    padding: 0px 13px;
+    padding: 6px 13px;
     border-radius: 40px;
     margin-left: 30px;
     font-weight: bold;
@@ -149,6 +168,7 @@ nav {
 @media screen and (max-width:990px) {
     .navitems {
         font-size: min(2vw, 100px);
+        margin-top: -10px;
     }
 }
 
@@ -168,7 +188,7 @@ nav {
 /* Section-1 Style */
 
 main .section1 {
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,6 +197,7 @@ main .section1 {
 }
 
 main .section1 h3 {
+    padding-bottom: 20px;
     color: #030e12;
     font-size: min(4vw, 100px);
     font-weight: 700;
@@ -762,6 +783,7 @@ main .aboutpart {
         height: 80px;
         width: 80px;
     }
+
     .section5 {
         padding-top: 90px;
         padding-bottom: 140px;
@@ -778,6 +800,7 @@ main .aboutpart {
         height: 60px;
         width: 60px;
     }
+
     .section5 {
         padding-top: 80px;
         padding-bottom: 130px;
@@ -791,6 +814,7 @@ main .aboutpart {
         row-gap: 20px;
         column-gap: 50px;
     }
+
     .section5 {
         padding-top: 80px;
         padding-bottom: 120px;
@@ -1367,10 +1391,11 @@ footer {
     }
 
     .lastlist .whatsapp {
-        height: 50px;
+        height: 55px;
         width: 55px;
     }
-    .links h6{
+
+    .links h6 {
         font-size: 17px;
     }
 }
@@ -1380,12 +1405,14 @@ footer {
         height: 55px;
         width: 60px;
     }
+
     .lastlist .whatsapp {
-        height: 50px;
-        width: 55px;
+        height: 45px;
+        width: 45px;
         margin-top: -10px;
     }
-    .links h6{
+
+    .links h6 {
         font-size: 15px;
     }
 }
@@ -1402,8 +1429,14 @@ footer {
         height: 40px;
         width: 40px;
     }
-    .links h6{
+
+    .links h6 {
         font-size: 14px;
+    }
+    .lastlist .whatsapp {
+        height: 45px;
+        width: 45px;
+        margin-top: -10px;
     }
 }
 
@@ -1412,7 +1445,8 @@ footer {
         height: 35px;
         width: 35px;
     }
-    .links h6{
+
+    .links h6 {
         font-size: 13px;
     }
 }
@@ -1422,8 +1456,14 @@ footer {
 
 /* LAST */
 
-.copyright{
+.copyright {
+    margin-top: 80px;
     background-color: #fbb517;
     color: #000000;
     font-weight: bolder;
+}
+@media screen and (max-width:990px) {
+    .copyright{
+        margin-top: 0px;
+    }
 }
