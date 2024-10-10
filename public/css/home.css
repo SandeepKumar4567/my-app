@@ -27,6 +27,11 @@ header .navbar-nav {
 nav {
     height: 83px;
 }
+@media screen and (max-width:990px){
+    nav{
+        height: 60px;
+    }
+}
 
 @media screen and (max-width:990px) {
     .navbar-nav {
@@ -71,7 +76,9 @@ nav {
 
 @media screen and (max-width:990px) {
     .logo {
-        margin-top: -25px;
+        margin-top: -20px;
+        height: 70px;
+        width: 110px;
     }
 
     header .navbar-toggler {
@@ -83,9 +90,9 @@ nav {
 
 @media screen and (max-width:840px) {
     .logo {
-        height: 80px;
-        width: 120px;
         margin-top: -20px;
+        height: 70px;
+        width: 110px;
     }
 
     .navbar-nav {
@@ -95,9 +102,9 @@ nav {
 
 @media screen and (max-width:600px) {
     .logo {
+        margin-top: -20px;
         height: 70px;
         width: 110px;
-        margin-top: -10px;
     }
 
     header .navbar-toggler {
@@ -115,7 +122,7 @@ nav {
     .logo {
         height: 50px;
         width: 80px;
-        margin-top: 0px;
+        margin-top: -10px;
     }
 
     header .navbar-toggler {
@@ -170,7 +177,7 @@ nav {
 /* Section-1 Style */
 
 main .section1 {
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
