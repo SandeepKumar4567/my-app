@@ -71,10 +71,10 @@ function Home() {
 
                 {/* Section 2 */}
 
-                <div id="about" className="section2 block">
+                <div id="about" className="section2">
                     <p className="about col-12">About <p id="ida">IDA</p></p>
                     <div className="aboutpart">
-                        <img className="col-lg-6 col-12 img-fluid block" src="./image/vr.webp" alt="" height={450} width={400} /><br />
+                        <img className="col-lg-6 col-12 img-fluid" src="./image/vr.webp" alt="" height={450} width={400} /><br />
                         <h3 className="col-lg-5 col-12">Shaping Tomorrow's <p id="reality">Reality</p>
                             <p className="sec2para">At IDA, we're pioneers in reshaping industries and businesses through cutting-edge solutions tailored for Web3.0 and Industry 4.0. Our mission? To propel you forward into a new era of immersive technology. We specialize in crafting bespoke solutions that harness the power of AR (Augmented Reality), VR (Virtual Reality), MR (Mixed Reality), and XR (Extended Reality), unlocking endless possibilities for your business. Step into the future with us as we redefine the landscape of industries through our expertise in Game Development, Motion Graphics, Immersive Media, Visual Effects, and Virtual Production. Join IDA on the journey to an immersive tomorrow!</p></h3>
                     </div>
